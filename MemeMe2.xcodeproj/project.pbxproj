@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		AF29763D270FAE48001BF681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29763C270FAE48001BF681 /* AppDelegate.swift */; };
 		AF29763F270FAE48001BF681 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29763E270FAE48001BF681 /* SceneDelegate.swift */; };
-		AF297641270FAE48001BF681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF297640270FAE48001BF681 /* ViewController.swift */; };
+		AF297641270FAE48001BF681 /* MemeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF297640270FAE48001BF681 /* MemeEditorViewController.swift */; };
 		AF297644270FAE48001BF681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF297642270FAE48001BF681 /* Main.storyboard */; };
 		AF297646270FAE53001BF681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF297645270FAE53001BF681 /* Assets.xcassets */; };
 		AF297649270FAE53001BF681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF297647270FAE53001BF681 /* LaunchScreen.storyboard */; };
+		AF29765327138FA5001BF681 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29765227138FA5001BF681 /* Meme.swift */; };
+		AF29765B27139172001BF681 /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29765A27139172001BF681 /* MemeCollectionViewCell.swift */; };
+		AF29765D271391DB001BF681 /* MemeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29765C271391DB001BF681 /* MemeTableViewController.swift */; };
+		AF29765F271392BD001BF681 /* MemeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29765E271392BD001BF681 /* MemeCollectionViewController.swift */; };
+		AF861AAD27D4DA5A00458B4B /* MemeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF861AAC27D4DA5A00458B4B /* MemeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF297639270FAE48001BF681 /* MemeMe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF29763C270FAE48001BF681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF29763E270FAE48001BF681 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF297640270FAE48001BF681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF297640270FAE48001BF681 /* MemeEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditorViewController.swift; sourceTree = "<group>"; };
 		AF297643270FAE48001BF681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF297645270FAE53001BF681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF297648270FAE53001BF681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF29764A270FAE53001BF681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF29765227138FA5001BF681 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		AF29765A27139172001BF681 /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF29765C271391DB001BF681 /* MemeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTableViewController.swift; sourceTree = "<group>"; };
+		AF29765E271392BD001BF681 /* MemeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewController.swift; sourceTree = "<group>"; };
+		AF861AAC27D4DA5A00458B4B /* MemeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				AF29763C270FAE48001BF681 /* AppDelegate.swift */,
 				AF29763E270FAE48001BF681 /* SceneDelegate.swift */,
-				AF297640270FAE48001BF681 /* ViewController.swift */,
+				AF297640270FAE48001BF681 /* MemeEditorViewController.swift */,
+				AF861AAC27D4DA5A00458B4B /* MemeDetail.swift */,
+				AF29765227138FA5001BF681 /* Meme.swift */,
+				AF29765A27139172001BF681 /* MemeCollectionViewCell.swift */,
+				AF29765C271391DB001BF681 /* MemeTableViewController.swift */,
+				AF29765E271392BD001BF681 /* MemeCollectionViewController.swift */,
 				AF297642270FAE48001BF681 /* Main.storyboard */,
 				AF297645270FAE53001BF681 /* Assets.xcassets */,
 				AF297647270FAE53001BF681 /* LaunchScreen.storyboard */,
@@ -137,9 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF297641270FAE48001BF681 /* ViewController.swift in Sources */,
+				AF29765B27139172001BF681 /* MemeCollectionViewCell.swift in Sources */,
+				AF297641270FAE48001BF681 /* MemeEditorViewController.swift in Sources */,
+				AF861AAD27D4DA5A00458B4B /* MemeDetail.swift in Sources */,
 				AF29763D270FAE48001BF681 /* AppDelegate.swift in Sources */,
+				AF29765327138FA5001BF681 /* Meme.swift in Sources */,
+				AF29765F271392BD001BF681 /* MemeCollectionViewController.swift in Sources */,
 				AF29763F270FAE48001BF681 /* SceneDelegate.swift in Sources */,
+				AF29765D271391DB001BF681 /* MemeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
