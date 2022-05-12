@@ -17,4 +17,8 @@ MemeMe covers many of the major UI components found in essentially every app. It
 
 ![Simulator Screen Shot - iPod touch (7th generation) - 2022-05-12 at 22 21 32](https://user-images.githubusercontent.com/92055081/168162431-12ca310c-5623-4035-b437-e7e3686067f0.png)
 
+## Meme View
+
+![Simulator Screen Shot - iPod touch (7th generation) - 2022-05-12 at 22 22 04](https://user-images.githubusercontent.com/92055081/168162676-e71460b3-38a6-476a-85fb-cd7292a02ab7.png)
+
 
